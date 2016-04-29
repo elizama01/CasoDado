@@ -118,4 +118,105 @@ Persona p2= new Persona();
              System.out.println("Error No se ingreso el Numero deseado");
         }
     }
+
+    public int getGanador() {
+        return ganador;
+    }
+
+    public void setGanador(int ganador) {
+        this.ganador = ganador;
+    }
+
+    public int getTerminar() {
+        return terminar;
+    }
+
+    public void setTerminar(int terminar) {
+        this.terminar = terminar;
+    }
+
+    public Dado getN1() {
+        return n1;
+    }
+
+    public void setN1(Dado n1) {
+        this.n1 = n1;
+    }
+
+    public Dado getN2() {
+        return n2;
+    }
+
+    public void setN2(Dado n2) {
+        this.n2 = n2;
+    }
+
+    public int getPlayer1() {
+        return player1;
+    }
+
+    public void setPlayer1(int player1) {
+        this.player1 = player1;
+    }
+
+    public int getPlayer2() {
+        return player2;
+    }
+
+    public void setPlayer2(int player2) {
+        this.player2 = player2;
+    }
+
+    public int getOpc() {
+        return opc;
+    }
+
+    public void setOpc(int opc) {
+        this.opc = opc;
+    }
+
+    public int getOpc1() {
+        return opc1;
+    }
+
+    public void setOpc1(int opc1) {
+        this.opc1 = opc1;
+    }
+
+    public int getTurno() {
+        return turno;
+    }
+
+    public void setTurno(int turno) {
+        this.turno = turno;
+    }
+
+    public int getNumjuego() {
+        return numjuego;
+    }
+
+    public void setNumjuego(int numjuego) {
+        this.numjuego = numjuego;
+    }
+
+    public Persona getP1() {
+        return p1;
+    }
+
+    public void setP1(Persona p1) {
+        this.p1 = p1;
+    }
+
+    public Persona getP2() {
+        return p2;
+    }
+
+    public void setP2(Persona p2) {
+        this.p2 = p2;
+    }
+
+    @Override
+    public String toString() {
+        return "Juego{" + "ganador=" + ganador + ", terminar=" + terminar + ", n1=" + n1 + ", n2=" + n2 + ", player1=" + player1 + ", player2=" + player2 + ", opc=" + opc + ", opc1=" + opc1 + ", turno=" + turno + ", numjuego=" + numjuego + ", p1=" + p1 + ", p2=" + p2 + '}';
+    }
 }
